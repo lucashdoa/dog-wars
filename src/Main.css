@@ -1,0 +1,45 @@
+
+#dog1{
+    background-color:red; 
+}
+#dog2{
+    background-color:blue;
+}
+h1{
+    font-size: 3em;
+}
+.marginbottom{
+    margin-bottom: 25px;
+}
+  
+.container{
+    height: 100vh;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+#middle{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+
+/* Lida com imagens de tamanho desconhecido para caber no container Figure 500px por 500 px */
+/* .container figure {
+    text-align: center;
+    line-height: 500px;
+    height: 100%;
+}
+  
+.container figure img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+} */
