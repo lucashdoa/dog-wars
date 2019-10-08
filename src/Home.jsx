@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './img/dogwars.png';
+import {Link} from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -17,7 +18,7 @@ export default function Home() {
           >
             Visite meu site pessoal!
           </a>
-          <a href='/main' className="button is-warning">Iniciar</a>
+          <Link to='/main' className="button is-warning">Iniciar</Link>
         </header>
       </div>
     );

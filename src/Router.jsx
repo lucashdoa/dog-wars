@@ -9,11 +9,12 @@ export default props => (
         <div id='stars2'></div>
         <div id='stars3'></div>
         <div>
-        <Route path='/' component={Home} exact/>
-        <Route path='/main' component={Main}/>
         <Switch>
             <Route path="/main">
                 <Main />
+            </Route>
+            <Route path="/">
+                <Home/>
             </Route>
         </Switch>
         </div>
