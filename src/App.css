@@ -19,5 +19,17 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: rgb(255,221,87);
+  margin-bottom:50px;
+}
+.App-link:hover {
+  color: rgb(255,251,187);
+}
+
+.button{
+  width:100px;
+}
+.App-header h1{
+  margin-top:50px;
+  font-size:1em;
 }

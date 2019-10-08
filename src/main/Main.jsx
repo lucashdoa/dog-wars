@@ -58,13 +58,12 @@ export default class Main extends React.Component{
 
                     <div className='columns'>
                         <div id='dog1' className='column is-5'>
-                         
                             <Dog photo={items.message[0]}/>
                         </div>
                         <div id='middle' className='column is-2'>
                             <progress value={redTotal} className="progress is-danger marginbottom"  max="100">80%</progress>
                             <button onClick={() => this.handleRedIncrement()} className='button is-danger'>Sith</button>
-                            <h1 className='has-text-warning'>Battle !</h1>
+                            <h1 className='has-text-warning'>VS</h1>
                             <button onClick={() => this.handleBlueIncrement()}className='button is-info marginbottom'>Jedi</button>
                             <progress value={blueTotal} className="progress is-info"  max="100">80%</progress>
                         </div>

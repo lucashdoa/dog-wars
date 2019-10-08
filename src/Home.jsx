@@ -7,9 +7,9 @@ export default function Home() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
+          <h1>
             Desenvolvido por Lucas Andrade
-          </p>
+          </h1>
           <a
             className="App-link"
             href="http://lucasandrade.atwebpages.com"
@@ -18,7 +18,7 @@ export default function Home() {
           >
             Visite meu site pessoal!
           </a>
-          <Link to='/main' className="button is-warning">Iniciar</Link>
+          <Link to='/main' className="button is-warning"><span className='has-text-black'>Iniciar</span></Link>
         </header>
       </div>
     );

@@ -1,9 +1,9 @@
 
 #dog1{
-    background-color:red; 
+    background-color:rgba(255,56,96,1); 
 }
 #dog2{
-    background-color:blue;
+    background-color:rgba(32,156,238,1);
 }
 h1{
     font-size: 3em;
@@ -26,6 +26,19 @@ h1{
     align-items: center;
     display: flex;
     flex-direction: column
+}
+
+@media(max-width:600px){
+    .container{
+        margin-bottom: 100px;
+    }
+    .image{
+        height: 200px;
+    }
+    .dog-image{
+        max-width: 200px;
+        max-height: 200px;
+    }
 }
 
 
