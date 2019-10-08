@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import Dog from './Dog.jsx';
+import Dog from '../Dog.jsx';
 
 
 export default class Main extends React.Component{

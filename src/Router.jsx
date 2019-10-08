@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter,Route} from 'react-router-dom';
 import Home from './Home.jsx';
-import Main from './Main.jsx';
+import Main from './main/Main.jsx';
 
 export default props => (
     <BrowserRouter>
