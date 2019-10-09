@@ -27,17 +27,32 @@ h1{
     display: flex;
     flex-direction: column
 }
+.image{
+    height: 450px;
+    width:450px;
+}
+.dog-image{
+    max-width: 423px;
+    max-height: 450px;
+    min-width: 423px;
+    min-height: 450px;
+}
+.load{
+    font-size:2em;
+    font-style: bold;
+}
 
-@media(max-width:600px){
-    .container{
-        margin-bottom: 100px;
-    }
+
+@media(max-width:400px){
     .image{
-        height: 200px;
+        height: 150px;
+        width:150px;
     }
     .dog-image{
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 150px;
+        max-height: 150px;
+        min-width: 150px;
+        min-height: 150px;
     }
 }
 

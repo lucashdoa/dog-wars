@@ -3,6 +3,7 @@ import './Main.css';
 import Dog from '../Dog.jsx';
 
 
+
 export default class Main extends React.Component{
     constructor(props){
         super(props);
@@ -30,9 +31,11 @@ export default class Main extends React.Component{
         let {redTotal} = this.state;
         this.setState({
             redTotal:parseInt(redTotal) + 10,
+            isLoaded:false,
         });
         if(this.state.redTotal === 90){
-            alert('Os Siths venceram!')
+            alert('Os Siths venceram!');
+            window.location.href='/';
         }
         this.componentDidMount();
     }
@@ -41,9 +44,11 @@ export default class Main extends React.Component{
         let {blueTotal} = this.state;
         this.setState({
             blueTotal:parseInt(blueTotal) + 10,
+            isLoaded:false,
         });
         if(this.state.blueTotal === 90){
-            alert('Os Jedi venceram!')
+            alert('Os Jedi venceram!');
+            window.location.href='/';
         }
         this.componentDidMount();
     }
@@ -51,7 +56,7 @@ export default class Main extends React.Component{
     render(){
         var {isLoaded,items,redTotal,blueTotal} = this.state;
         if(!isLoaded){
-            return <div>LOADING...</div>
+            return <div className='App App-header'><span className='load has-text-warning'>LOADING ...</span></div>
         } else {
             return (
                 <div className='container is-fluid'>
