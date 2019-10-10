@@ -4,7 +4,8 @@ import Home from './Home.jsx';
 import Main from './main/Main.jsx';
 import End from './end/End.jsx';
 
-export default props => (
+
+export default () => (
     <BrowserRouter>
         <div id='stars'></div>
         <div id='stars2'></div>

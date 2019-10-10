@@ -18,7 +18,7 @@ export default () => (
             <img alt='dog3' src="http://placekitten.com/520/300" className="carousel__image"/>
             </div>
         </div>
-        <h1>Os JEDI venceram!</h1>
+        <h1 class='ending-h1'>Os JEDI venceram!</h1>
         <Link to='/' className="button is-warning"><span className='has-text-black'>Tela Inicial</span></Link>
     </div>
 );      

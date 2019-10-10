@@ -3,8 +3,10 @@ import './Main.css';
 import Dog from '../Dog.jsx';
 
 
+
 var sithDogArray =[];
 var jediDogArray =[];
+
 
 export default class Main extends React.Component{
     constructor(props){
@@ -39,7 +41,7 @@ export default class Main extends React.Component{
         });
         
         if(this.state.redTotal === 90){
-            window.location.href='/end';
+            this.props.history.push('/end');
             return;
         }
         this.componentDidMount();
