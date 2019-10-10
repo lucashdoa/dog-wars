@@ -10,17 +10,17 @@ export default props => (
         <div id='stars2'></div>
         <div id='stars3'></div>
         <div>
-        <Switch>
-            <Route path='/end'>
-                <End />
-            </Route>
-            <Route path="/main">
-                <Main />
-            </Route>
-            <Route path="/">
-                <Home/>
-            </Route>
-        </Switch>
+            <Switch>
+                <Route path='/end'>
+                    <End />
+                </Route>
+                <Route path="/main">
+                    <Main />
+                </Route>
+                <Route path="/">
+                    <Home/>
+                </Route>
+            </Switch>
         </div>
     </BrowserRouter>
 ); 
