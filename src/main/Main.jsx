@@ -39,7 +39,7 @@ export default class Main extends React.Component{
         });
         
         if(this.state.redTotal === 90){
-            window.location.href='/';
+            window.location.href='/end';
             return;
         }
         this.componentDidMount();
@@ -52,7 +52,7 @@ export default class Main extends React.Component{
             isLoaded:false,
         });
         if(this.state.blueTotal === 90){
-            window.location.href='/';
+            window.location.href='/end';
             return;
         }
         this.componentDidMount();
